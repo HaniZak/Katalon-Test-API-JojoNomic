@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>GetLatLon</name>
+   <name>API_GetLatLon</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f83e6356-618f-458d-85a1-0d702e3663dd</testCaseGuid>

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 response = WS.sendRequest(findTestObject('GetForestHourly'))
 
-WS.verifyElementPropertyValue(response, 'data[0].timestamp_utc', '2022-11-10T02:00:00')
+WS.verifyElementPropertyValue(response, 'data[0].timestamp_utc', '2022-11-10T06:00:00')
 
-WS.verifyElementPropertyValue(response, 'data[0].weather.description', 'Few clouds')
+WS.verifyElementPropertyValue(response, 'data[0].weather.description', 'Clear Sky')
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>GetForestHourly</name>
+   <name>API_GetForestHourly</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>443a83d7-4dd0-47f3-98cc-9f70b5ca2ba4</testCaseGuid>

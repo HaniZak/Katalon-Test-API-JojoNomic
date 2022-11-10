@@ -38,7 +38,7 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 assert response.getStatusCode() == 200
-WS.verifyElementPropertyValue(response, &quot;data[0].timestamp_utc&quot;, &quot;2022-11-10T02:00:00&quot;)
-WS.verifyElementPropertyValue(response, &quot;data[0].weather.description&quot;, &quot;Few clouds&quot;)</verificationScript>
+WS.verifyElementPropertyValue(response, &quot;data[0].timestamp_utc&quot;, &quot;2022-11-10T06:00:00&quot;)
+WS.verifyElementPropertyValue(response, &quot;data[0].weather.description&quot;, &quot;Clear Sky&quot;)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
